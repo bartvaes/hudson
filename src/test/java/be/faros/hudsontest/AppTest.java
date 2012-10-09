@@ -16,7 +16,6 @@ public class AppTest extends TestCase
      */
     public AppTest( String testName )
     {
-	  breakage !
         super( testName );
     }
 
@@ -33,6 +32,6 @@ public class AppTest extends TestCase
      */
     public void testApp()
     {
-        assertTrue( true );
+        assertTrue( false );
     }
 }
