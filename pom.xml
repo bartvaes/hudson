@@ -9,6 +9,10 @@
 
   <name>HudsonTest</name>
   <url>http://maven.apache.org</url>
+    <ciManagement>
+        <system>hudson</system>
+        <url>http://localhost:9090/hudson-2.2.1/job/HudsonTest/</url>
+    </ciManagement>
     <build>
         <plugins>
             <plugin>
